@@ -1,0 +1,19 @@
+<script>
+var pulaLinha = function () {
+	document .write( "<br>" );
+};
+var mostra = function (frase) {
+	document .write(frase);
+	pulaLinha();
+};
+var calculaIMC = function (altura, peso) {
+	var imc = peso / (altura * altura);
+	return imc;
+};
+var peso = 75;
+var altura = 1.72;
+var imc = calculaIMC(altura, peso);
+mostra( "Meu imc é " + imc);
+mostra( "Ainda estou " + (imc - 18.5)+ " pontos acima do limite da magreza." );
+mostra( "Ainda estou " + (35- imc)+ " pontos distante do limite da obesidade severa." );
+</script>

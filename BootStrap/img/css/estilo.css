@@ -1,0 +1,30 @@
+body{
+	font-family:'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family:'Lato','Helvetica Neue',Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+header.masthead{
+	position: relative;
+	background-color: #343a40;
+	background: url("../img/aulas.jpg") no-repeat center center;
+}
+header.masthead{
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-background-size:cover;	
+}
+header.masthead{
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+
